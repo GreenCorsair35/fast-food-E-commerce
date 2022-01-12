@@ -1,0 +1,53 @@
+.ProductPreview {
+    position: relative;
+    width: 100%;
+  }
+  
+  .ProductPreview > img {
+    width: 100%;
+  }
+  
+  .TimeSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+  
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .HeatBeatSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+  
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .HeatBeatSection > i {
+    color: red;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1, 1);
+    }
+  
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .HeatBeatSection > p {
+    margin-top: 8px;
+  }

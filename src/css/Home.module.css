@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.Main{
+    padding: 1% 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.MainContainer {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BlogCard {
+	width: calc(25% - 20px);
+    min-width: 200px;
+	border: 1px solid rgba(0,168,255,.3);
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+	margin: 8px;
+}
+
+.Thumbnail {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.BlogDataWrapper {
+	padding: 12px 24px;
+}
+
+.BlogTitle {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.14;
+}
+
+.BlogDesc {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.43px;
+	opacity: 0.5;
+}
+
+.AuthorName {
+	color: #0096ff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.BlogDate {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.AuthorInfoWrapper {
+	padding: 10px 0 16px;
+}
